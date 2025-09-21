@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import heroShapes from "@/assets/hero-shapes.jpg";
+import { Link } from 'react-router-dom';
 
 export const Hero = () => {
   return (
@@ -40,9 +41,12 @@ export const Hero = () => {
             <Button 
               size="lg" 
               className="group bg-primary hover:bg-primary/90 text-gray-900 font-semibold px-8 py-3 rounded-xl hover-lift"
+              asChild
             >
-              Create Banner
-              <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              <Link to="/chat">
+                Create Banner
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </Button>
             <Button 
               size="lg" 

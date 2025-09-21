@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,10 +12,12 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="bg-primary p-2 rounded-lg">
-              <MessageCircle className="w-5 h-5 text-gray-900" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">BannerGen</span>
+            <Link to="/" className="flex items-center gap-3">
+              <div className="bg-primary p-2 rounded-lg">
+                <MessageCircle className="w-5 h-5 text-gray-900" />
+              </div>
+              <span className="text-xl font-bold text-gray-900">BannerGen</span>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
