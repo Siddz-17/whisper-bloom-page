@@ -18,21 +18,21 @@ export const Hero = () => {
           {/* Hero Badge */}
           <div className="inline-flex items-center gap-2 bg-accent px-4 py-2 rounded-full text-sm font-medium text-accent-foreground mb-8 hover-lift">
             <MessageCircle className="w-4 h-4" />
-            <span>Meet your AI conversation partner</span>
+            <span>Professional LinkedIn banners made easy</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold mb-6 hero-text">
-            Chat with AI,
+            Create stunning
             <br />
             <span className="bg-gradient-to-r from-primary to-yellow-500 bg-clip-text text-transparent">
-              naturally
+              LinkedIn banners
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Experience conversations that feel human. Our AI understands context, emotion, and nuance like never before.
+            Design professional LinkedIn banners in minutes. Stand out from the crowd with custom graphics that represent your personal brand.
           </p>
 
           {/* CTA Buttons */}
@@ -41,7 +41,7 @@ export const Hero = () => {
               size="lg" 
               className="group bg-primary hover:bg-primary/90 text-gray-900 font-semibold px-8 py-3 rounded-xl hover-lift"
             >
-              Start Chatting
+              Create Banner
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -58,7 +58,7 @@ export const Hero = () => {
             <div className="relative glass rounded-2xl p-8 hover-lift">
               <img 
                 src={heroShapes} 
-                alt="AI Chat Interface Preview"
+                alt="LinkedIn Banner Generator Preview"
                 className="w-full h-auto rounded-lg"
               />
               

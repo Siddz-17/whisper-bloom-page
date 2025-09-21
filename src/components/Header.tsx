@@ -14,23 +14,11 @@ export const Header = () => {
             <div className="bg-primary p-2 rounded-lg">
               <MessageCircle className="w-5 h-5 text-gray-900" />
             </div>
-            <span className="text-xl font-bold text-gray-900">AI Chat</span>
+            <span className="text-xl font-bold text-gray-900">BannerGen</span>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Features
-            </a>
-            <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">
-              How it works
-            </a>
-            <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Pricing
-            </a>
-            <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">
-              About
-            </a>
           </nav>
 
           {/* Desktop CTA */}
@@ -58,19 +46,7 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden border-t border-gray-200 py-4">
             <nav className="flex flex-col gap-4">
-              <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Features
-              </a>
-              <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">
-                How it works
-              </a>
-              <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Pricing
-              </a>
-              <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">
-                About
-              </a>
-              <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
+              <div className="flex flex-col gap-2 pt-4">
                 <Button variant="ghost" className="text-gray-600 hover:text-gray-900 justify-start">
                   Sign in
                 </Button>
