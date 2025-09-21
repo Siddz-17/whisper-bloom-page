@@ -53,24 +53,6 @@ export const Hero = () => {
             </Button>
           </div>
 
-          {/* Hero Visual */}
-          <div className="relative max-w-3xl mx-auto">
-            <div className="relative glass rounded-2xl p-8 hover-lift">
-              <img 
-                src={heroShapes} 
-                alt="LinkedIn Banner Generator Preview"
-                className="w-full h-auto rounded-lg"
-              />
-              
-              {/* Floating elements */}
-              <div className="absolute -top-4 -right-4 bg-primary p-3 rounded-xl float">
-                <MessageCircle className="w-6 h-6 text-gray-900" />
-              </div>
-              <div className="absolute -bottom-6 -left-6 bg-background p-4 rounded-xl shadow-lg float" style={{animationDelay: '2s'}}>
-                <span className="text-sm font-medium text-gray-700">99.9% Uptime</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
